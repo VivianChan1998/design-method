@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/design-method-team2/static/css/main.5f361e03.chunk.css",
-    "main.js": "/design-method-team2/static/js/main.b552630c.chunk.js",
-    "main.js.map": "/design-method-team2/static/js/main.b552630c.chunk.js.map",
-    "runtime-main.js": "/design-method-team2/static/js/runtime-main.5788b75d.js",
-    "runtime-main.js.map": "/design-method-team2/static/js/runtime-main.5788b75d.js.map",
-    "static/js/2.96a078cf.chunk.js": "/design-method-team2/static/js/2.96a078cf.chunk.js",
-    "static/js/2.96a078cf.chunk.js.map": "/design-method-team2/static/js/2.96a078cf.chunk.js.map",
-    "index.html": "/design-method-team2/index.html",
-    "precache-manifest.3e956dc60afdd7f25d2ecda4a8c72159.js": "/design-method-team2/precache-manifest.3e956dc60afdd7f25d2ecda4a8c72159.js",
-    "service-worker.js": "/design-method-team2/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/design-method-team2/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.96a078cf.chunk.js.LICENSE.txt": "/design-method-team2/static/js/2.96a078cf.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/design-method-team2/static/media/logo.5d5d9eef.svg"
+    "main.css": "/design-method/static/css/main.5f361e03.chunk.css",
+    "main.js": "/design-method/static/js/main.1db7db55.chunk.js",
+    "main.js.map": "/design-method/static/js/main.1db7db55.chunk.js.map",
+    "runtime-main.js": "/design-method/static/js/runtime-main.1c93f9f0.js",
+    "runtime-main.js.map": "/design-method/static/js/runtime-main.1c93f9f0.js.map",
+    "static/js/2.96a078cf.chunk.js": "/design-method/static/js/2.96a078cf.chunk.js",
+    "static/js/2.96a078cf.chunk.js.map": "/design-method/static/js/2.96a078cf.chunk.js.map",
+    "index.html": "/design-method/index.html",
+    "precache-manifest.e75b9c55504ddc6597b79beca2d9652a.js": "/design-method/precache-manifest.e75b9c55504ddc6597b79beca2d9652a.js",
+    "service-worker.js": "/design-method/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/design-method/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.96a078cf.chunk.js.LICENSE.txt": "/design-method/static/js/2.96a078cf.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/design-method/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5788b75d.js",
+    "static/js/runtime-main.1c93f9f0.js",
     "static/js/2.96a078cf.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.b552630c.chunk.js"
+    "static/js/main.1db7db55.chunk.js"
   ]
 }
