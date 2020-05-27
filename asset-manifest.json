@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/design-method-team2/static/css/main.5f361e03.chunk.css",
-    "main.js": "/design-method-team2/static/js/main.2b5b6498.chunk.js",
-    "main.js.map": "/design-method-team2/static/js/main.2b5b6498.chunk.js.map",
+    "main.js": "/design-method-team2/static/js/main.b552630c.chunk.js",
+    "main.js.map": "/design-method-team2/static/js/main.b552630c.chunk.js.map",
     "runtime-main.js": "/design-method-team2/static/js/runtime-main.5788b75d.js",
     "runtime-main.js.map": "/design-method-team2/static/js/runtime-main.5788b75d.js.map",
-    "static/js/2.7ea8dce2.chunk.js": "/design-method-team2/static/js/2.7ea8dce2.chunk.js",
-    "static/js/2.7ea8dce2.chunk.js.map": "/design-method-team2/static/js/2.7ea8dce2.chunk.js.map",
+    "static/js/2.96a078cf.chunk.js": "/design-method-team2/static/js/2.96a078cf.chunk.js",
+    "static/js/2.96a078cf.chunk.js.map": "/design-method-team2/static/js/2.96a078cf.chunk.js.map",
     "index.html": "/design-method-team2/index.html",
-    "precache-manifest.f3deb8b83802694da210f3b8ee1b1419.js": "/design-method-team2/precache-manifest.f3deb8b83802694da210f3b8ee1b1419.js",
+    "precache-manifest.3e956dc60afdd7f25d2ecda4a8c72159.js": "/design-method-team2/precache-manifest.3e956dc60afdd7f25d2ecda4a8c72159.js",
     "service-worker.js": "/design-method-team2/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/design-method-team2/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.7ea8dce2.chunk.js.LICENSE.txt": "/design-method-team2/static/js/2.7ea8dce2.chunk.js.LICENSE.txt",
+    "static/js/2.96a078cf.chunk.js.LICENSE.txt": "/design-method-team2/static/js/2.96a078cf.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/design-method-team2/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5788b75d.js",
-    "static/js/2.7ea8dce2.chunk.js",
+    "static/js/2.96a078cf.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.2b5b6498.chunk.js"
+    "static/js/main.b552630c.chunk.js"
   ]
 }

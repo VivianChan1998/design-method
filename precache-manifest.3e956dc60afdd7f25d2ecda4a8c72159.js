@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bbf43a58a324cf8527415fa32424a337",
+    "revision": "4394b89682f019ab70962757a446db8e",
     "url": "/design-method-team2/index.html"
   },
   {
-    "revision": "cdcc65409016c0b8a531",
+    "revision": "a00c5602949b05dfbc93",
     "url": "/design-method-team2/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "e71b918b588c77951902",
-    "url": "/design-method-team2/static/js/2.7ea8dce2.chunk.js"
+    "revision": "4419ab4b5d1c6388507a",
+    "url": "/design-method-team2/static/js/2.96a078cf.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/design-method-team2/static/js/2.7ea8dce2.chunk.js.LICENSE.txt"
+    "url": "/design-method-team2/static/js/2.96a078cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cdcc65409016c0b8a531",
-    "url": "/design-method-team2/static/js/main.2b5b6498.chunk.js"
+    "revision": "a00c5602949b05dfbc93",
+    "url": "/design-method-team2/static/js/main.b552630c.chunk.js"
   },
   {
     "revision": "a82b7faea690062ecd93",
