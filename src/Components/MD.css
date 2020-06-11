@@ -1,0 +1,36 @@
+.MD-container{
+    text-align: left;
+    padding: 5vh 10vw 5vh 10vw;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.MD-container h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-pink);
+}
+
+.MD-container blockquote {
+    display: inline-block;
+    background-color: var(--color-pink);
+    padding: 2vh 3vh 2vh 3vh;
+    border-radius: 10px;
+}
+
+.MD-container blockquote > p{
+    margin: auto;
+    color: var(--color-white);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.MD-container h3 {
+    margin: 6vh 0 3vh 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-blue);
+}
+
+.MD-container li {
+    color: var(--color-black);
+}

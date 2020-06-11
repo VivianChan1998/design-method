@@ -1,0 +1,30 @@
+.Nav{
+    position: relative;
+    z-index: 6;
+    height: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.Nav a{
+    padding: 0 2vw 1vh 2vw;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color .3s;
+}
+
+.Nav-white a{
+    color: var(--color-white);
+}
+
+.Nav-white a:hover{
+    color: var(--color-blue);
+}
+
+.Nav-blue a{
+    color: var(--color-blue);
+}
+
+.Nav-blue a:hover{
+    color: var(--color-pink);
+}

@@ -1,0 +1,50 @@
+{
+    "options": [
+        {
+            "value": "10", "label": "獨自",
+            "menuColor": "green"
+        },{
+            "value": "11", "label": "協力"
+        },{
+            "value": "20", "label": "前期"
+        },{
+            "value": "21", "label": "後期"
+        },{
+            "value": "30", "label": "速度快"
+        },{
+            "value": "31", "label": "速度慢"
+        },{
+            "value": "40", "label": "重質"
+        },{
+            "value": "41", "label": "重量"
+        },{
+            "value": "50", "label": "Problem"
+        },{
+            "value": "51", "label": "Insight"
+        },{
+            "value": "52", "label": "idea"
+        },{
+            "value": "53", "label": "execution"
+        },{
+            "value": "60", "label": "創意"
+        },{
+            "value": "61", "label": "實際"
+        },{
+            "value": "70", "label": "室內"
+        },{
+            "value": "71", "label": "室外"
+        },{
+            "value": "80", "label": "產出資料"
+        },{
+            "value": "81", "label": "使用資料"
+        },{
+            "value": "90", "label": "分析"
+        },{
+            "value": "91", "label": "發想"
+        },{
+            "value": "00", "label": "概略"
+        },{
+            "value": "01", "label": "詳盡"
+        }
+      ]
+}

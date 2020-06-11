@@ -1,3 +1,16 @@
+* {
+  --color-white: #FEFAF5;
+  --color-light-blue: #D0FBF6;
+  --color-pink: #F9B0A9;
+  --color-blue: #075574;
+  --color-black: #2c363f;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .App {
   text-align: center;
 }

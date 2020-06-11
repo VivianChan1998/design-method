@@ -1,0 +1,29 @@
+.ML-link{
+    color: var(--color-black);
+    text-decoration: none;
+    
+}
+.ML-wrapper{
+    display: block;
+    margin: 1vh;
+    width: 200px;
+    height:15vh;
+    border: 1px solid var(--color-blue);
+}
+.ML-link:hover{
+    text-decoration: none;
+}
+.TL-methodLink{
+    border: 1px solid;
+    border-style: linear-gradient(to left, #00C853, #B2FF59);
+    border-radius: 10px;
+}
+
+.TL-methodLink h4{
+    position: relative;
+    line-height: 15vh;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}

@@ -1,0 +1,21 @@
+#P1-wrapper{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--color-pink);
+}
+
+#P2-wrapper{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--color-light-blue);
+}
+
+#P3-wrapper{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--color-blue);
+}

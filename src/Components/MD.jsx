@@ -1,5 +1,6 @@
 import React from 'react'
 import marked from "marked"
+import './MD.css'
 
 export default class MD extends React.Component{
   constructor(props){

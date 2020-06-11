@@ -1,0 +1,26 @@
+.Banner{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+}
+
+.Banner h1{
+    position: relative;
+    z-index: 4;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--color-blue)
+}
+
+.Banner h1:after{
+    display: block;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    width: 28%;
+    height: 2rem;
+    margin: -2vh 38% 0 36%;
+    border-radius: 15px;
+    opacity: 0.7;
+    background-color: var(--color-pink);
+}
