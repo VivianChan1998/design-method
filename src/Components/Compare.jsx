@@ -2,6 +2,7 @@ import React from 'react'
 import Select from 'react-select'
 import Data from '../Data/Index.json'
 import './Compare.css'
+import {Tag} from './Tags'
 
 const customStyle = {
     option: (styles, { data, isDisabled, isFocused, isSelected }) => {
@@ -60,6 +61,7 @@ export default class Compare extends React.Component{
                     <table id='Compare-table'>
                         <thead>
                             <tr>
+                                <th className='ColHead'>方法名稱</th>
                                 {
                                     this.state.selected.map(e => 
                                         <th colspan="1">{e.label}</th>
@@ -69,6 +71,35 @@ export default class Compare extends React.Component{
                         </thead>
                         <tbody>
                             <tr>
+                                <td className='ColHead'>方法簡介</td>
+                                {
+                                    this.state.selected.map(e => 
+                                    <td >{Data['content'][e.label]['summary']}</td>
+                                    )
+                                }
+                            </tr>
+                            <tr>
+                                <td className='ColHead'>方法特色</td>
+                                {
+                                    this.state.selected.map(e => 
+                                        <td >{
+                                            Data['content'][e.label]['tag'].map(e => 
+                                                <Tag id={e} />
+                                            )
+                                        }</td>
+                                    )
+                                }
+                            </tr>
+                            <tr>
+                                <td className='ColHead'>使用時機</td>
+                                {
+                                    this.state.selected.map(e => 
+                                    <td >{Data['content'][e.label]['usage']}</td>
+                                    )
+                                }
+                            </tr>
+                            <tr>
+                                <td className='ColHead'>優點</td>
                                 {
                                     this.state.selected.map(e => 
                                     <td >{Data['content'][e.label]['good']}</td>
@@ -76,6 +107,7 @@ export default class Compare extends React.Component{
                                 }
                             </tr>
                             <tr>
+                                <td className='ColHead'>缺點</td>
                                 {
                                     this.state.selected.map(e => 
                                     <td >{Data['content'][e.label]['bad']}</td>
