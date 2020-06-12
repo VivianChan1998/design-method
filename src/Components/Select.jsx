@@ -58,6 +58,7 @@ export default class Sort extends React.Component{
                 isMulti
                 isClearable
                 onChange={this.props.onChange}
+                placeholder='選擇方法特點'
             />
         )
     }

@@ -4,6 +4,7 @@ import Sort from '../Components/Sort'
 import { Tab, Tabs } from "react-bootstrap";
 import NavBar from '../Components/NavBar'
 import './Home.css'
+import Compare from '../Components/Compare';
 
 export default class Home extends React.Component{
     constructor(props){
@@ -26,6 +27,9 @@ export default class Home extends React.Component{
                     </Tab>
                     <Tab eventKey="sort" title="依照屬性分類">
                         <Sort />
+                    </Tab>
+                    <Tab eventKey="compare" title="方法比較">
+                        <Compare />
                     </Tab>
                 </Tabs>
             </div>

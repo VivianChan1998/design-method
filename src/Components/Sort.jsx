@@ -3,6 +3,7 @@ import Select from './Select'
 import './Sort.css'
 import Data from '../Data/Index.json'
 import MethodLink from './MethodLink'
+import filter from '../img/filter.svg'
 
 const Content = Data['content']
 const keys = Object.keys(Data['content'])
@@ -29,17 +30,20 @@ export default class Sort extends React.Component{
             selected: sel,
             appear: content
         })
-        
-        
     }
     render(){
         console.log(this.state.appear)
         return(
-            <div>
-                <Select onChange={e =>this.handleChange(e)} />
+            <div id='sort-wrapper'>
+                <div id='select-wrapper'>
+                    <img src={filter}/>
+                    <div><Select onChange={e =>this.handleChange(e)} /></div>
+                </div>
+                <div id='filter-ML'>
                 {
                     this.state.appear.map(e => <MethodLink title={e} />)
                 }
+                </div>
             </div>
         )
     }

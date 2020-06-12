@@ -28,117 +28,163 @@
         "心智圖":{
             "summary": "",
             "tag": ["10", "31"],
-            "md": "try"
+            "md": "try",
+            "good": ["1234"],
+            "bad": ["www"]
         },
         "Persona假設":{
             "summary": "",
             "tag": ["11", "31"],
-            "md": "try"
+            "md": "try",
+            "good": ["1234"],
+            "bad": ["www"]
         },
         "顧客歷程元素地圖":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": ["1234"],
+            "bad": ["www"]
         },
         "街頭短訪":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": ["1234"],
+            "bad": ["www"]
         },
         "觀察法":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": ["1234"],
+            "bad": ["www"]
         },
         "篩選問卷":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": ["1234"],
+            "bad": ["www"]
         },
         "深度訪談":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": ["1234"],
+            "bad": ["www"]
         },
         "劇本法":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": ["1234"],
+            "bad": ["www"]
         },
         "拾事圖":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": ["1234"],
+            "bad": ["www"]
         },
         "Persona":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": ["1234"],
+            "bad": ["www"]
         },
         "KJ法":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": [],
+            "bad": []
         },
         "議題卡":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": [],
+            "bad": []
         },
         "HMW":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": [],
+            "bad": []
         },
         "腦力激盪":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": [],
+            "bad": []
         },
         "635法":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": [],
+            "bad": []
         },
         "創新矩陣":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": [],
+            "bad": []
         },
         "概念表單":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": [],
+            "bad": []
         },
         "狩野分析":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": [],
+            "bad": []
         },
         "體驗策略地圖":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": [],
+            "bad": []
         },
         "應用劇本表單":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": [],
+            "bad": []
         },
         "體驗歷程提案":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": [],
+            "bad": []
         },
         "體驗願景提案":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": [],
+            "bad": []
         },
         "商業策略提案":{
             "summary": "",
             "tag": [],
-            "md": "try"
+            "md": "try",
+            "good": [],
+            "bad": []
         }
     }
 }
