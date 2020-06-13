@@ -17,7 +17,7 @@ export default class NavBar extends React.Component{
                     <a href="/home">方法目錄</a>
                 </Nav.Item>
                 <Nav.Item as="li">
-                    <a href="/home">團隊成員</a>
+                    <a href="/about">團隊成員</a>
                 </Nav.Item>
                 
             </Nav>

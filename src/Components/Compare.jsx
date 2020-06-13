@@ -114,6 +114,18 @@ export default class Compare extends React.Component{
                                     )
                                 }
                             </tr>
+                            <tr>
+                                <td className='ColHead'>連結</td>
+                                {
+                                    this.state.selected.map(e => 
+                                    <td >
+                                        <a href={`/${e.label}`}>
+                                            詳細閱讀
+                                        </a>
+                                    </td>
+                                    )
+                                }
+                            </tr>
                         </tbody>
                     </table>
                 </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import Option from '../Data/Options.json'
-import './Tags.css'
 
 const colorSet = [
     '#F1948A','#BB8FCE','#85C1E9','#73C6B6',
@@ -10,30 +9,36 @@ const colorSet = [
 const TagStyle = id => {
     return(
         {
+            position: 'relative',
+            zIndex: 10,
             backgroundColor: colorSet[id[0]],
             display: 'inline-block',
-            maxWidth: '80px',
+            minWidth: '80px',
+            minHeight: '30px',
             borderRadius: '15px',
-            padding: '4px',
-            margin: '0.5vh',
+            padding: '1px 2px 1px 2px',
+            margin: '0.3vh',
             color: '#FFFFFF'
         }
     )
 }
 
 const TagValStyle = id => {
-    return({
-    backgroundColor: colorSet[id[0]],
-    maxWidth: '100px',
-    borderRadius: '15px',
-    padding: '4px',
-    color: '#FFFFFF',
-    })
+    return(
+        {
+            backgroundColor: colorSet[id[0]],
+            maxWidth: '100px',
+            borderRadius: '15px',
+            padding: '4px',
+            color: '#FFFFFF',
+        }
+    )
 }
 
 class Tag extends React.Component{
     render(){
         var id = this.props.id
+        console.log(id)
         return(
             <div style={TagStyle(id)}>
                 <div style={TagValStyle(id)}>

@@ -1,9 +1,18 @@
 * {
   --color-white: #FEFAF5;
-  --color-light-blue: #D0FBF6;
+  --color-light-blue: rgb(160, 240, 230);
   --color-pink: #F9B0A9;
   --color-blue: #075574;
   --color-black: #2c363f;
+}
+
+@font-face {
+  font-family: bubble;
+  src: url(./font/jf-openhuninn-1.1.ttf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: bubble;
 }
 
 a {
