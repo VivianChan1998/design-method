@@ -51,3 +51,34 @@
     margin-bottom: 3vh;
     color: var(--color-blue);
 }
+
+.About-wrapper h1{
+    font-size: 2.8rem;
+    color: var(--color-blue);
+}
+
+
+#about-title{
+    height: 40vh;
+    width: 100vw;
+    margin-top: -16vh;
+    padding-top: 16vh;
+}
+
+.member-content h6{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.member-wrapper:nth-child(2n+1) .member-content h6{
+    color: var(--color-light-blue);
+}
+
+.member-wrapper:nth-child(2n) .member-content h6{
+    color: var(--color-pink);
+}
+
+.member-content p {
+    color: #111111b6;
+    line-height: 1.6;
+}

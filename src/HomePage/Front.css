@@ -11,6 +11,7 @@
     height: 100vh;
     width: 100vw;
     background-color: var(--color-light-blue);
+    padding: 10vh 2vh 10vh 2vh;
 }
 
 #P3-wrapper{
@@ -18,4 +19,167 @@
     height: 100vh;
     width: 100vw;
     background-color: var(--color-blue);
+    padding: 30vh;
+    padding-top: 20vh;
+    text-align: left;
+}
+#P3-wrapper h2{
+    font-size: 3.2rem;
+    color: var(--color-white);
+    font-weight: 600;
+
+}
+#P3-wrapper p{
+    color: var(--color-white);
+    margin: 3vh 0 4vh 0; 
+}
+#P3-wrapper h5{
+    font-size: 0.8rem;
+    color: var(--color-light-blue);
+}
+#P3-wrapper button{
+    padding: 2vh;
+    border-radius: 100px;
+    margin-top: 5vh;
+    width: 20vw;
+    border: none;
+    color: var(--color-pink);
+    background-color: var(--color-blue);
+    border: 2px solid var(--color-pink);
+    font-weight: 500;
+}
+#P3-wrapper button:hover{
+    transition: background-color .2s;
+    color: var(--color-blue);
+    background-color: var(--color-pink);
+    border: none;
+}
+
+.strokeme {
+    text-shadow: -1px -1px 0 var(--color-gray), 1px -1px 0 var(--color-gray), -1px 1px 0 var(--color-gray), 1px 1px 0 var(--color-gray);
+    -webkit-font-smoothing: antialiased;
+}
+
+.strokeme2 {
+    text-shadow: -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
+    -webkit-font-smoothing: antialiased;
+}
+
+.ddd{
+    color: var(--color-light-blue);
+    font-size: 10vh;
+    font-family: bubble;
+    font-weight: 700;
+    letter-spacing: 2vh;
+    text-align: left;
+}
+.ccc{
+    color: var(--color-pink);
+    font-size: 10vh;
+    font-family: bubble;
+    font-weight: 700;
+    letter-spacing: 2vh;
+    text-align: left;
+}
+
+.my-cursor {
+    width: 6px;
+    height: 4vh;
+    margin: 1vh;
+    border-radius: 3px;
+    color: var(--color-white)!important;
+    opacity: 0.4;
+}
+.after-content{
+    display: none;
+    
+}
+.afterType .after-content{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    opacity: .8;
+    margin: auto;
+    margin-top: 4vh;
+    font-family: bubble;
+    margin-left: 60vh;
+    animation: sleepy 1s ease-in forwards;
+}
+
+.afterType .after-content-blue{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    opacity: .8;
+    margin: auto;
+    margin-top: 4vh;
+    font-family: bubble;
+    margin-left: 60vh;
+    animation: sleepy 1s ease-in forwards;
+    color: var(--color-blue);
+}
+.ds{ opacity: .4;}
+.the-design{ opacity: .4;}
+.afterType .ds{
+   animation: disappear 1s ease-out forwards;
+}
+.afterType .dss{
+   animation: disappear 2s ease-in forwards;
+}
+
+.afterType .the-design{
+    animation: appear 3s ease-in forwards;
+}
+
+.afterType .the-design-blue{
+    animation: appear-blue 3s ease-in forwards;
+}
+@keyframes disappear{
+    from{opacity: .4;}
+    to{opacity: 0;}
+}
+
+@keyframes appear{
+    0%{
+        opacity: .4;
+        color: var(--color-pink);
+    }
+    50%{
+        opacity: 1;
+        color: white;
+        text-shadow: none;
+    }
+    100%{
+        opacity: 1;
+        color: white;
+        text-shadow: none;
+    }
+}
+
+@keyframes appear-blue{
+    0%{
+        opacity: .4;
+        color: var(--color-light-blue);
+    }
+    50%{
+        opacity: 1;
+        color: var(--color-blue);
+        text-shadow: none;
+    }
+    100%{
+        opacity: 1;
+        color: var(--color-blue);
+        text-shadow: none;
+    }
+}
+
+@keyframes sleepy{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }

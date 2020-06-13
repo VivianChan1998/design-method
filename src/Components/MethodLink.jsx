@@ -20,7 +20,7 @@ export default class MethodLink extends React.Component{
     }
     render(){
         return(
-            <a href={`/${this.props.title}`} className='ML-link' >
+            <a className='ML-link' >
                 <div className='ML-wrapper' onMouseEnter={() => this.handleHover()} onMouseLeave={() => this.leaveHover()}>
                     {this.state.content}
                 </div>
@@ -30,9 +30,17 @@ export default class MethodLink extends React.Component{
 }
 
 function FrontContent(props){
+    const name = props.title
     return(
         <div className='ML-front'>
-            <h5>{props.title}</h5>
+            <h5>{name}</h5>
+            <div>
+                {
+                    Data['content'][name]['tag'].map(e => 
+                        <Tag id={e} small/>
+                    )
+                }
+            </div>
         </div>
     )
 }
@@ -45,13 +53,11 @@ function BackContent(props){
             <p>
                 {Data['content'][name]['summary']}
             </p>
-            <div>
-                {
-                    Data['content'][name]['tag'].map(e => 
-                        <Tag id={e} />
-                    )
-                }
-            </div>
+            <a href={`/${name}`}>
+            <button>
+                詳細介紹
+            </button>
+            </a>
         </div>
     )
 }

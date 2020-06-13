@@ -14,19 +14,21 @@
     width: 50px;
     height: 100%;
     float: left;
-    border-right: 1px solid black;
+    border-right: 1px solid var(--color-pink);
 
 }
 
 .TL-level{
     position: relative;
     padding: 1vh 0 1vh 40px;
+    margin-bottom: 3vh;
 }
 
 .TL-icon{
-    background-color: black;
+    background-color: var(--color-pink);
     height: 20px;
     width: 20px;
+    margin-bottom: 4vh;
 }
 
 .TL-level h3{
@@ -35,7 +37,9 @@
     text-align: left;
     padding-left: 30px;
     margin: 0;
-    line-height: 20px; 
+    line-height: 20px;
+    margin-bottom: 4vh;
+    color: var(--color-pink);
 }
 
 .TL-method-wrapper{

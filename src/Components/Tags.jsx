@@ -6,24 +6,25 @@ const colorSet = [
     '#82E0AA','#F8C471','#E59866',
     '#D7DBDD','#B2BABB','#808B96']
 
-const TagStyle = id => {
+const TagStyle = (id, small) => {
     return(
         {
             position: 'relative',
             zIndex: 10,
             backgroundColor: colorSet[id[0]],
             display: 'inline-block',
-            minWidth: '80px',
-            minHeight: '30px',
+            minWidth: small? 'auto':'80px',
+            minHeight: small? 'auto':'30px',
             borderRadius: '15px',
             padding: '1px 2px 1px 2px',
-            margin: '0.3vh',
-            color: '#FFFFFF'
+            margin: small? '0.1vh' : '0.3vh',
+            color: '#FFFFFF',
+            fontSize: small? '0.8rem': '1rem'
         }
     )
 }
 
-const TagValStyle = id => {
+const TagValStyle = (id, small) => {
     return(
         {
             backgroundColor: colorSet[id[0]],
@@ -40,8 +41,8 @@ class Tag extends React.Component{
         var id = this.props.id
         console.log(id)
         return(
-            <div style={TagStyle(id)}>
-                <div style={TagValStyle(id)}>
+            <div style={TagStyle(id, this.props.small)}>
+                <div style={TagValStyle(id, this.props.small)}>
                     {Option['option_map'][id]}
                 </div>
             </div>

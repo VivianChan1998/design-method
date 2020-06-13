@@ -4,6 +4,7 @@
   --color-pink: #F9B0A9;
   --color-blue: #075574;
   --color-black: #2c363f;
+  --color-gray: #ffffffa6;
 }
 
 @font-face {
@@ -19,6 +20,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 
 .App {
   text-align: center;

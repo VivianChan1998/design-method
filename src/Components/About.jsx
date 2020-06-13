@@ -13,9 +13,12 @@ const imgList = [img1, img2, img3, img4, img5, img6]
 export default class Aboute extends React.Component{
     render(){
         return(
-            <div>
+            <div className='About-wrapper'>
                 <NavBar />
-                <h1>團隊成員</h1>
+                <div id='about-title'>
+                    <h1>團隊成員</h1>
+                </div>
+                
                 {
                     MemberData['member'].map(e => 
                         <Member data={e} />
