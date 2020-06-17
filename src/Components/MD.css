@@ -33,4 +33,31 @@
 
 .MD-container li {
     color: var(--color-black);
+    font-size: 1rem;
+    line-height: 200%;
+}
+
+.MD-container img{
+    position: relative;
+    max-width: 80%;
+}
+
+.back{
+    position: absolute;
+    color: var(--color-pink);
+    width: 50%;
+    align-self: center;
+    left: 25%;
+    margin-bottom : 5vh;
+}
+
+.MD-container pre{
+    background-color: var(--color-light-blue);
+    color: var(--color-blue);
+    padding: 5vh 3vw 5vh 3vw;
+    width: auto;
+    font-weight: 700;
+    border-radius: 10px;
+    white-space: pre-wrap;
+    margin: 2vh auto 2vh auto;
 }

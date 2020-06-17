@@ -19,7 +19,8 @@ const TagStyle = (id, small, isDot) => {
             padding: '1px 2px 1px 2px',
             margin: small? '0' : '0.5vh',
             color: '#FFFFFF',
-            fontSize: small? '0.6rem': '0.8rem'
+            fontSize: small? '0.6rem': '0.8rem',
+            textAlign: 'center'
         }
     )
 }

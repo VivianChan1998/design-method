@@ -8,6 +8,8 @@
 }
 .App{
   background-color: var(--color-white);
+  overflow: hidden;
+  margin-bottom: -5vh;
 }
 @font-face {
   font-family: bubble;
@@ -22,7 +24,11 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
+.home-title{
+  text-align: left;
+  margin: 1vh auto 6vw 5vw;
+  color: var(--color-blue);
+}
 
 .App {
   text-align: center;

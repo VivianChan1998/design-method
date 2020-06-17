@@ -21,7 +21,7 @@ export default class MethodLink extends React.Component{
     }
     render(){
         return(
-            <a className='ML-link' >
+            <div>
                 <div className='ML-wrapper' onMouseEnter={() => this.handleHover()} onMouseLeave={() => this.leaveHover()}>
                     {
                         this.state.isFlipped?
@@ -30,7 +30,7 @@ export default class MethodLink extends React.Component{
                         <FrontContent title={this.props.title} />
                     }
                 </div>
-            </a>
+            </div>
         )
     }
 }

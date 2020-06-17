@@ -45,6 +45,7 @@ export default class Compare extends React.Component{
     render(){
         return(
             <div id='Compare-wrapper'>
+                <h2 className='home-title'>比較不同方法特性</h2>
                 <div id='Compare-select'>
                     <Select options={
                             Data['all'].map(e => {return {value: e, label: e}})

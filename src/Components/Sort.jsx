@@ -32,6 +32,7 @@ export default class Sort extends React.Component{
     render(){
         return(
             <div id='sort-wrapper'>
+                <h2 className='home-title'>依照方法特性尋找</h2>
                 <div id='select-wrapper'>
                     <img src={filter}/>
                     <div><Select onChange={e =>this.handleChange(e)} /></div>

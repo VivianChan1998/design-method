@@ -25,10 +25,28 @@
 }
 
 .TL-icon{
-    background-image: url(../img/icon1.svg);
+    
     height: 50px;
     width: 50px;
     margin-bottom: 6vh;
+}
+.url-1{
+    background-image: url(../img/icon1.svg);
+}
+.url-2{
+    background-image: url(../img/icon2.svg);
+}
+.url-3{
+    background-image: url(../img/icon3.svg);
+}
+.url-4{
+    background-image: url(../img/icon4.svg);
+}
+.url-5{
+    background-image: url(../img/icon5.svg);
+}
+.url-6{
+    background-image: url(../img/icon6.svg);
 }
 
 .TL-level h3{
