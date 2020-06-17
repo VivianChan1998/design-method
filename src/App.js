@@ -14,8 +14,8 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path='/' component={Front} />
-        <Route exact path='/home' component={Home} />
-        <Route exact path='/about' component={About} />
+        <Route path='/home' component={Home} />
+        <Route path='/about' component={About} />
         {
           Data['all'].map(e => 
               <Route path={`/${e}`} render={() => <MD mdURL={e} />} />

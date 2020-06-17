@@ -4,7 +4,7 @@ import './Front.css'
 import NavBar from '../Components/NavBar'
 import Typing from 'react-typing-animation';
 import Fade from 'react-reveal/Fade';
-import VisibilitySensor from 'react-visibility-sensor'
+import {Link} from 'react-router-dom'
 
 export default class Front extends React.Component{
     constructor(props){
@@ -154,11 +154,11 @@ class P3 extends React.Component{
                 <h5>108-2 設計方法 team2</h5>
                 <h5>指導老師：我忘了</h5>
                 <h5>組員：我晚一點再打ＱＱ</h5>
-                <a href='/home'>
+                <Link to='/home'>
                 <button>
                     開始認識設計方法
                 </button>
-                </a>
+                </Link>
             </div>
         )
     }

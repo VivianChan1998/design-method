@@ -3,6 +3,7 @@ import Select from 'react-select'
 import Data from '../Data/Index.json'
 import './Compare.css'
 import {Tag} from './Tags'
+import { Link } from 'react-router-dom'
 
 const customStyle = {
     option: (styles, { data, isDisabled, isFocused, isSelected }) => {
@@ -90,6 +91,7 @@ export default class Compare extends React.Component{
                                     )
                                 }
                             </tr>
+                            {/*
                             <tr>
                                 <td className='ColHead'>使用時機</td>
                                 {
@@ -98,6 +100,7 @@ export default class Compare extends React.Component{
                                     )
                                 }
                             </tr>
+                            */}
                             <tr>
                                 <td className='ColHead'>優點</td>
                                 {
@@ -119,9 +122,11 @@ export default class Compare extends React.Component{
                                 {
                                     this.state.selected.map(e => 
                                     <td >
-                                        <a href={`/${e.label}`}>
+                                        <Link to={`/${e.label}`}>
+                                            <button className='button'>
                                             詳細閱讀
-                                        </a>
+                                            </button>
+                                        </Link>
                                     </td>
                                     )
                                 }

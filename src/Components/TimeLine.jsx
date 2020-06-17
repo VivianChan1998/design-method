@@ -14,7 +14,7 @@ export default class TimeLine extends React.Component{
                     TimeLineTitles.map(e =>
                         <div className='TL-level'>
                             <div className='TL-icon'></div>
-                            <h3>{e}</h3>
+                            <h3>{e}{/*<span>⋁</span>*/}</h3>
                             <div className='TL-method-wrapper'>
                                 
                                 {

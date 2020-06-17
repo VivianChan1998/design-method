@@ -19,10 +19,9 @@ const customStyles = {
             maxWidth: '80px',
             borderRadius: '15px',
             padding: '4px',
-            color: white,
+            color: '#FFFFFF',
             margin: '0.5vh',
             cursor: isDisabled ? 'not-allowed' : 'default',
-            color: '#FFFFFF'
         };
     },
     multiValue: (styles, { data }) => {

@@ -5,6 +5,7 @@ import { Tab, Tabs } from "react-bootstrap";
 import NavBar from '../Components/NavBar'
 import './Home.css'
 import Compare from '../Components/Compare';
+import {Link} from 'react-router-dom'
 
 export default class Home extends React.Component{
     constructor(props){
@@ -21,6 +22,28 @@ export default class Home extends React.Component{
             <div>
                 <NavBar />
                 <Banner />
+                <>
+                <style type="text/css">
+                    {`
+                    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+                        background: #F9B0A9;
+                        color: var(--color-white);
+                        border: none;
+                        
+                    }
+                    .nav-tabs .nav-item.show .nav-link, .nav-tabs{
+                        margin-left: 5vw;
+                    }
+                    .tab-content{
+                        border-top: 3px solid #F9B0A9;
+                        /*
+                        background: -moz-linear-gradient(top, #F9B0A9 0%, rgba(54,112,173,0) 3%, rgba(125,185,232,0) 100%);
+                        background: -webkit-linear-gradient(top, #F9B0A9 0%,rgba(54,112,173,0) 3%,rgba(125,185,232,0) 100%);
+                        background: linear-gradient(to bottom, #F9B0A9 0%,rgba(54,112,173,0) 3%,rgba(125,185,232,0) 100%);
+                        */
+                    }
+                    `}
+                </style>
                 <Tabs defaultActiveKey="timeline" id="uncontrolled-tab-example">
                     <Tab eventKey="timeline" title="依照設計歷程">
                         <TimeLine />
@@ -32,6 +55,7 @@ export default class Home extends React.Component{
                         <Compare />
                     </Tab>
                 </Tabs>
+                </>
             </div>
         )
     }

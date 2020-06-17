@@ -3,26 +3,32 @@ import './MethodLink.css'
 import {Tag} from './Tags'
 import Options from '../Data/Options.json'
 import Data from '../Data/Index.json'
+import { Link } from 'react-router-dom'
 
 export default class MethodLink extends React.Component{
     constructor(props) {
         super(props);
         this.state = {
             isFlipped: false,
-            content: <FrontContent title={this.props.title} />
         };
     }
+    
     handleHover(e) {
-        this.setState({content: <BackContent title={this.props.title}/>})
+        this.setState({isFlipped: true})
     }
     leaveHover(e) {
-        this.setState({content: <FrontContent title={this.props.title} /> })
+        this.setState({isFlipped: false })
     }
     render(){
         return(
             <a className='ML-link' >
                 <div className='ML-wrapper' onMouseEnter={() => this.handleHover()} onMouseLeave={() => this.leaveHover()}>
-                    {this.state.content}
+                    {
+                        this.state.isFlipped?
+                        <BackContent title={this.props.title} />
+                        :
+                        <FrontContent title={this.props.title} />
+                    }
                 </div>
             </a>
         )
@@ -37,7 +43,7 @@ function FrontContent(props){
             <div>
                 {
                     Data['content'][name]['tag'].map(e => 
-                        <Tag id={e} small/>
+                        <Tag id={e} small dot/>
                     )
                 }
             </div>
@@ -53,11 +59,11 @@ function BackContent(props){
             <p>
                 {Data['content'][name]['summary']}
             </p>
-            <a href={`/${name}`}>
+            <Link to={`/${name}`}>
             <button>
                 詳細介紹
             </button>
-            </a>
+            </Link>
         </div>
     )
 }

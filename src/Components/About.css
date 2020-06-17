@@ -1,3 +1,11 @@
+.About-wrapper{
+    background-image: url(../img/teammember.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 10vh;
+    background-size: 100%;
+}
+
 .member-wrapper{
     position: relative;
     display: flex;

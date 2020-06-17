@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav'
+import {Link} from 'react-router-dom'
 import Navbar from 'react-bootstrap/Navbar'
 import './Nav.css'
 
@@ -11,13 +12,13 @@ export default class NavBar extends React.Component{
             <Navbar>
             <Nav defaultActiveKey="/home" as="ul" className={navClass}>
                 <Nav.Item as="li">
-                    <a href="/">首頁</a>
+                    <Link to="/">首頁</Link>
                 </Nav.Item>
                 <Nav.Item as="li">
-                    <a href="/home">方法目錄</a>
+                    <Link to="/home">方法目錄</Link>
                 </Nav.Item>
                 <Nav.Item as="li">
-                    <a href="/about">團隊成員</a>
+                    <Link to="/about">團隊成員</Link>
                 </Nav.Item>
                 
             </Nav>

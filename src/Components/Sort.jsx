@@ -16,23 +16,20 @@ export default class Sort extends React.Component{
             appear: keys
         }
     }
-    handleChange(e){
+    handleChange(evt){
         var content = Data['all']
-        var sel = e==null? [] : e.map(e => e.value)
-        console.log(sel)
+        var sel = evt == null? [] : evt.map(el => el.value)
 
         for(var i=0; i<sel.length; ++i){
             content = content.filter(e => Content[e]['tag'].includes(sel[i]))
         }
 
-        console.log(content)
         this.setState({
             selected: sel,
             appear: content
         })
     }
     render(){
-        console.log(this.state.appear)
         return(
             <div id='sort-wrapper'>
                 <div id='select-wrapper'>

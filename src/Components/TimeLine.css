@@ -5,13 +5,13 @@
     position: relative;
     width: 100%;
     height: auto;
-    padding-top: 5vh;
+    padding: 5vh 5vw 5vh 5vw;
 
 }
 
 .TL-line{
     position: absolute;
-    width: 50px;
+    width: 65px;
     height: 100%;
     float: left;
     border-right: 1px solid var(--color-pink);
@@ -25,25 +25,32 @@
 }
 
 .TL-icon{
-    background-color: var(--color-pink);
-    height: 20px;
-    width: 20px;
-    margin-bottom: 4vh;
+    background-image: url(../img/icon1.svg);
+    height: 50px;
+    width: 50px;
+    margin-bottom: 6vh;
 }
 
 .TL-level h3{
     position: absolute;
     top: 1vh;
     text-align: left;
-    padding-left: 30px;
+    padding-left: 60px;
     margin: 0;
-    line-height: 20px;
-    margin-bottom: 4vh;
+    line-height: 50px;
+    margin-bottom: 6vh;
     color: var(--color-pink);
 }
 
+.TL-level h3 > span {
+    margin-left: 1vw;
+    font-size: 1rem;
+    font-weight: 700;
+    color: gray;
+}
+
 .TL-method-wrapper{
-    margin: 1vh 5vh 1vh 30px;
+    margin: 1vh 5vh 1vh 60px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
