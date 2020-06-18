@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/design-method/static/css/main.7376bc48.chunk.css",
-    "main.js": "/design-method/static/js/main.866073f1.chunk.js",
-    "main.js.map": "/design-method/static/js/main.866073f1.chunk.js.map",
+    "main.css": "/design-method/static/css/main.513edba7.chunk.css",
+    "main.js": "/design-method/static/js/main.7e9cffba.chunk.js",
+    "main.js.map": "/design-method/static/js/main.7e9cffba.chunk.js.map",
     "runtime-main.js": "/design-method/static/js/runtime-main.1c93f9f0.js",
     "runtime-main.js.map": "/design-method/static/js/runtime-main.1c93f9f0.js.map",
     "static/css/2.62bb1181.chunk.css": "/design-method/static/css/2.62bb1181.chunk.css",
-    "static/js/2.aec3fee8.chunk.js": "/design-method/static/js/2.aec3fee8.chunk.js",
-    "static/js/2.aec3fee8.chunk.js.map": "/design-method/static/js/2.aec3fee8.chunk.js.map",
+    "static/js/2.96e2b18e.chunk.js": "/design-method/static/js/2.96e2b18e.chunk.js",
+    "static/js/2.96e2b18e.chunk.js.map": "/design-method/static/js/2.96e2b18e.chunk.js.map",
     "index.html": "/design-method/index.html",
-    "precache-manifest.66113cc026903c60cbdec2150224c523.js": "/design-method/precache-manifest.66113cc026903c60cbdec2150224c523.js",
+    "precache-manifest.6371e99e33f231276e0512bed1413083.js": "/design-method/precache-manifest.6371e99e33f231276e0512bed1413083.js",
     "service-worker.js": "/design-method/service-worker.js",
     "static/css/2.62bb1181.chunk.css.map": "/design-method/static/css/2.62bb1181.chunk.css.map",
-    "static/css/main.7376bc48.chunk.css.map": "/design-method/static/css/main.7376bc48.chunk.css.map",
-    "static/js/2.aec3fee8.chunk.js.LICENSE.txt": "/design-method/static/js/2.aec3fee8.chunk.js.LICENSE.txt",
+    "static/css/main.513edba7.chunk.css.map": "/design-method/static/css/main.513edba7.chunk.css.map",
+    "static/js/2.96e2b18e.chunk.js.LICENSE.txt": "/design-method/static/js/2.96e2b18e.chunk.js.LICENSE.txt",
     "static/media/01.jpg": "/design-method/static/media/01.b3f65bbd.jpg",
     "static/media/02.jpg": "/design-method/static/media/02.21231d76.jpg",
     "static/media/03.jpg": "/design-method/static/media/03.951d16d8.jpg",
@@ -51,8 +51,8 @@
   "entrypoints": [
     "static/js/runtime-main.1c93f9f0.js",
     "static/css/2.62bb1181.chunk.css",
-    "static/js/2.aec3fee8.chunk.js",
-    "static/css/main.7376bc48.chunk.css",
-    "static/js/main.866073f1.chunk.js"
+    "static/js/2.96e2b18e.chunk.js",
+    "static/css/main.513edba7.chunk.css",
+    "static/js/main.7e9cffba.chunk.js"
   ]
 }
