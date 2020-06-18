@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6b8273145873a5aedb8450166cda8cc",
+    "revision": "9d74791d15f0ba9d28d4ada0ceae03f4",
     "url": "/design-method/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-method/static/css/2.62bb1181.chunk.css"
   },
   {
-    "revision": "3233f7696252c47474f6",
-    "url": "/design-method/static/css/main.41f15d12.chunk.css"
+    "revision": "225b3a54fc5a16763fc1",
+    "url": "/design-method/static/css/main.7376bc48.chunk.css"
   },
   {
     "revision": "b9d18d5ef8feaa61f2fa",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-method/static/js/2.aec3fee8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3233f7696252c47474f6",
-    "url": "/design-method/static/js/main.ba3e1dea.chunk.js"
+    "revision": "225b3a54fc5a16763fc1",
+    "url": "/design-method/static/js/main.866073f1.chunk.js"
   },
   {
     "revision": "d9dee634e9849808754d",
@@ -108,16 +108,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-method/static/media/teammember.79516505.svg"
   },
   {
-    "revision": "618b4282992380ad82e95f3b1dea1228",
-    "url": "/design-method/static/media/創意矩陣.618b4282.md"
+    "revision": "0eecf2cfda5f33cee1b4ccb578bb309f",
+    "url": "/design-method/static/media/創意矩陣.0eecf2cf.md"
   },
   {
-    "revision": "3467ec79cc28f157c0eb7334b4b3e6d8",
-    "url": "/design-method/static/media/劇本法.3467ec79.md"
+    "revision": "330bcdb31cecd5440021467840b6d027",
+    "url": "/design-method/static/media/劇本法.330bcdb3.md"
   },
   {
-    "revision": "1bfef0c8dd192f87fc0ef79373bec3cf",
-    "url": "/design-method/static/media/商業策略提案.1bfef0c8.md"
+    "revision": "4383e0b9fbdc4f8e4450a4a8d3f4c20f",
+    "url": "/design-method/static/media/商業策略提案.4383e0b9.md"
   },
   {
     "revision": "e462b2d1995a50d83a417dde4608b00f",
@@ -128,24 +128,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-method/static/media/應用劇本表單.990b889b.md"
   },
   {
-    "revision": "467e0cc29ca8edf4249d0944f68db632",
-    "url": "/design-method/static/media/拾事圖.467e0cc2.md"
+    "revision": "298b44a0a0379d29164fb810beec26da",
+    "url": "/design-method/static/media/拾事圖.298b44a0.md"
   },
   {
-    "revision": "50e2e71c481c82eb935e700d304aa998",
-    "url": "/design-method/static/media/概念表單.50e2e71c.md"
+    "revision": "f95a741b770eb5f17d77d5c75cf0e49d",
+    "url": "/design-method/static/media/概念表單.f95a741b.md"
   },
   {
-    "revision": "c557e477160a3950ad5dab521645c758",
-    "url": "/design-method/static/media/深度訪談.c557e477.md"
+    "revision": "4a404338370fe4b345715156e0f186b1",
+    "url": "/design-method/static/media/深度訪談.4a404338.md"
   },
   {
-    "revision": "10a3e57f63d87385d16b0f46e33f1797",
-    "url": "/design-method/static/media/狩野分析.10a3e57f.md"
+    "revision": "c89fab3637658263f81d3576e7a641bd",
+    "url": "/design-method/static/media/狩野分析.c89fab36.md"
   },
   {
-    "revision": "6b90b6db2fe59c5d4ebaeaf9a11fdae1",
-    "url": "/design-method/static/media/篩選問卷.6b90b6db.md"
+    "revision": "e481d66c6a9050202b4daeae51f92c5c",
+    "url": "/design-method/static/media/篩選問卷.e481d66c.md"
   },
   {
     "revision": "ff81a43ff1133016ae4df0bb050708ef",
@@ -156,8 +156,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-method/static/media/街頭短訪.060d23d8.md"
   },
   {
-    "revision": "39f057c526fd96efea74d45c71481883",
-    "url": "/design-method/static/media/觀察法.39f057c5.md"
+    "revision": "b4d85bf7c67882cb33e794f05440bc6a",
+    "url": "/design-method/static/media/觀察法.b4d85bf7.md"
   },
   {
     "revision": "94d37208f087d8957d3b919c252fdf40",
@@ -168,12 +168,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-method/static/media/顧客歷程元素地圖.c77a771d.md"
   },
   {
-    "revision": "b6ceede518b2fe9af782b5156a5107ae",
-    "url": "/design-method/static/media/體驗歷程提案.b6ceede5.md"
+    "revision": "64340548afb7676f923ddd69c7c5131f",
+    "url": "/design-method/static/media/體驗歷程提案.64340548.md"
   },
   {
-    "revision": "548d0e05383dd4fcf15313e429391ade",
-    "url": "/design-method/static/media/體驗策略地圖.548d0e05.md"
+    "revision": "84af96f30c1d515cbed4c14e5caf8813",
+    "url": "/design-method/static/media/體驗策略地圖.84af96f3.md"
   },
   {
     "revision": "6ca70d239950787e3a25988782eae284",
