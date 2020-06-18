@@ -2,7 +2,8 @@
 # Persona
 
 > 幫助設計師設身處地以使用者的角度思考設計
-![](https://i.imgur.com/iWQtG2m.jpg)
+![](https://i.imgur.com/QBQNSJS.jpg)
+
 ### 使用方法
   1. 從先前的數個Persona雛形中挑選出最可行者
   2. 確立一個有明確特色的角色身份

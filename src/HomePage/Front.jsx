@@ -63,8 +63,13 @@ class P1 extends React.Component{
                             <span className='ds'>CCCCCC</span>
                         </div>
                     </Typing>
-                    <Fade top>
-                        <div className='after-content'>突破 · 定義 ·重組</div>
+                    <Fade top delay={1000} duration={30}>
+                        <div className='after-content'>
+                            ( noun. )
+                            the way that something has been planned and made, including its appearance, how it works
+                            <br/>
+                            突破 · 定義 ·重組
+                        </div>
                     </Fade>
                     <Typing startDelay={600}
                     cursorClassName='my-cursor' speed={80}>
@@ -124,7 +129,12 @@ class P2 extends React.Component{
                         delay={1500}
                         duration={400}
                     >
-                        <div className='after-content-blue'>發散 · 轉變 · 收斂</div>
+                        <div className='after-content-blue'>
+                            ( verb. )
+                            to make or draw plans for something.
+                            <br/>
+                            發散 · 轉變 · 收斂
+                        </div>
                     </Fade>
                     <div className='strokeme2 ddd'>
                         <span className='dss'>DDDDDDDDDDDDDDDDDD</span>

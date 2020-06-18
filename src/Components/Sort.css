@@ -8,7 +8,7 @@
     position: absolute;
     width: 100%;
     height: 8vh;
-    margin: 2vh 5% 2vh 5%;
+    margin: 0vh 5% 2vh 5%;
 }
 
 #select-wrapper img{
@@ -27,7 +27,7 @@
 #filter-ML{
     position: relative;
     width: 90vw;
-    margin-top: 15vh;
+    margin-top: 18vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

@@ -56,8 +56,9 @@
     padding-left: 60px;
     margin: 0;
     line-height: 50px;
-    margin-bottom: 6vh;
+    margin-bottom: 2vh;
     color: var(--color-pink);
+    cursor: pointer;
 }
 
 .TL-level h3 > span {
@@ -65,6 +66,15 @@
     font-size: 1rem;
     font-weight: 700;
     color: gray;
+}
+
+.TL-state{
+    position: relative;
+    text-align: left;
+    margin: 1vh 5vh 1vh 10vh;
+    line-height: 5vh;
+    font-size: 1rem;
+    color: var(--color-blue);
 }
 
 .TL-method-wrapper{

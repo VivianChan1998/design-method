@@ -61,3 +61,10 @@
     white-space: pre-wrap;
     margin: 2vh auto 2vh auto;
 }
+
+.MD-container p>a{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: bubble;
+    color: var(--color-pink)
+}

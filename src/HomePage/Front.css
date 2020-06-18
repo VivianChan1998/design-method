@@ -92,6 +92,7 @@
 }
 .after-content{
     display: none;
+    width: 50%;
     
 }
 .afterType .after-content{
@@ -105,7 +106,7 @@
     margin: auto;
     margin-top: 4vh;
     font-family: bubble;
-    margin-left: 60vh;
+    margin: 0 25% 0 25%;
     animation: sleepy 1s ease-in forwards;
 }
 
