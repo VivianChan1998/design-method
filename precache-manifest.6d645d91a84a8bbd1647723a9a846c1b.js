@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06e3e27b86c8dce4f879d59e6261d6a6",
+    "revision": "a6b8273145873a5aedb8450166cda8cc",
     "url": "/design-method/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-method/static/css/2.62bb1181.chunk.css"
   },
   {
-    "revision": "c907c42d4b93b86bc8ee",
-    "url": "/design-method/static/css/main.71f240d6.chunk.css"
+    "revision": "3233f7696252c47474f6",
+    "url": "/design-method/static/css/main.41f15d12.chunk.css"
   },
   {
     "revision": "b9d18d5ef8feaa61f2fa",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-method/static/js/2.aec3fee8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c907c42d4b93b86bc8ee",
-    "url": "/design-method/static/js/main.cec6b6b0.chunk.js"
+    "revision": "3233f7696252c47474f6",
+    "url": "/design-method/static/js/main.ba3e1dea.chunk.js"
   },
   {
     "revision": "d9dee634e9849808754d",
@@ -48,12 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-method/static/media/05.ec13dd60.jpg"
   },
   {
-    "revision": "21231d768ec1f446d54de5329fa0eebc",
-    "url": "/design-method/static/media/06.21231d76.jpg"
+    "revision": "92543b51dfba1f0feafe527c9b015be1",
+    "url": "/design-method/static/media/06.92543b51.jpg"
   },
   {
-    "revision": "fa24ce2cd9b794afeb8238f41cae0cde",
-    "url": "/design-method/static/media/635法.fa24ce2c.md"
+    "revision": "f67ebc71ca5fa8be6012ecd0a4a88f85",
+    "url": "/design-method/static/media/635法.f67ebc71.md"
   },
   {
     "revision": "36c70c8573c3f028a1d0b2daa520b4bb",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-method/static/media/KJ法.bf03479c.md"
   },
   {
-    "revision": "900eec64d8ca6f6fe8846e64c464c210",
-    "url": "/design-method/static/media/Persona.900eec64.md"
+    "revision": "96bd42f32141aaadfdec4b9020c24583",
+    "url": "/design-method/static/media/Persona.96bd42f3.md"
   },
   {
     "revision": "65783f9b9d99cd38f792e8dc92d3d410",
@@ -148,8 +148,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-method/static/media/篩選問卷.6b90b6db.md"
   },
   {
-    "revision": "6c67943794072d314a8f62f2a63e3361",
-    "url": "/design-method/static/media/腦力激盪.6c679437.md"
+    "revision": "ff81a43ff1133016ae4df0bb050708ef",
+    "url": "/design-method/static/media/腦力激盪.ff81a43f.md"
   },
   {
     "revision": "060d23d8b57889a8876743652b914d47",
